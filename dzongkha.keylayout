@@ -1,0 +1,1286 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--  Dzongkha (dz-BT) Keyboard Kayout for Mac-->
+
+<!-- 
+Copyright (c) 2022  by the Dzongkha Development Commission <ddc@dzongkha.gov.bt>
+Licensed under the terms of the  MIT Open Source license. -->
+<!-- Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software. 
+-->
+<!-- 
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHERLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE. 
+-->
+
+<!-- 
+This Keyboard may be freely used, modified
+and distributed under the terms of this License
+-->
+<keyboard group="126" id="-2372" name="Dzongkha" maxout="2">
+
+        <layouts>
+                <layout first="0" last="0" modifiers="48" mapSet="312" />
+        </layouts>
+        <modifierMap id="48" defaultIndex="0">
+                <keyMapSelect mapIndex="0">
+                        <modifier keys="" />
+                </keyMapSelect>
+                <keyMapSelect mapIndex="1">
+                        <modifier keys="anyShift caps?" />
+                </keyMapSelect>
+                <keyMapSelect mapIndex="2">
+                        <modifier keys="caps" />
+                </keyMapSelect>
+                <keyMapSelect mapIndex="3">
+                        <modifier keys="anyOption" />
+                </keyMapSelect>
+                <keyMapSelect mapIndex="4">
+                        <modifier keys="anyShift caps? anyOption" />
+                </keyMapSelect>
+                <keyMapSelect mapIndex="5">
+                        <modifier keys="caps anyOption" />
+                </keyMapSelect>
+                <keyMapSelect mapIndex="6">
+                        <modifier keys="command anyShift? caps? anyOption? anyControl?" />
+                </keyMapSelect>
+                <keyMapSelect mapIndex="7">
+                        <modifier keys="anyShift? caps? anyOption? anyControl" />
+                </keyMapSelect>
+        </modifierMap>
+        <keyMapSet id="312">
+             
+                <keyMap index="0"> <!-- Normal State -->
+                	<!-- a key --> <!-- TA --> 
+                        <key code="0" output="&#xF4F;" /> <!-- 9F 4A 9A -->
+                        
+                        <!-- s key --><!-- THA -->
+                        <key code="1" output="&#xF50;" /> <!-- A0 4B 9B -->
+                        
+                        <!-- d key --><!-- DA -->
+                        <key code="2" output="&#xF51;" /> <!-- A1 4C 9C -->
+                        
+                        <!-- f key --><!-- NA -->
+                        <key code="3" output="&#xF53;" /> <!-- A3 4E 9E -->
+                        
+                        <!-- h key --><!-- PHA -->
+                        <key code="4" output="&#xF55;" /> <!-- A5 &#x203A 00BB -->
+                        
+                        <!-- g key --><!-- PA -->
+                        <key code="5" output="&#xF54;" /> <!-- A4 &#x2039 00AB -->
+                        
+                        <!-- z key --> <!-- ZHA -->
+                        <key code="6" output="&#xF5E;" /> <!-- AE 13 36 -->
+                        
+                        <!-- x key --><!-- ZA -->
+                        <key code="7" output="&#xF5F;" /> <!-- AF BE BF -->
+                        
+                        <!-- c key --><!-- 'A  (achung) -->
+                        <key code="8" output="&#xF60;" /> <!-- 71 03 B0 -->
+                        
+                        <!-- v key --><!-- ZA -->
+                        <key code="9" output="&#xF61;" /> <!-- B1 12 BB -->
+                        
+                        	<!-- ????? key -->
+                        	<key code="10" output="&#xA7;" />
+                        
+                        <!-- b key --><!-- RA -->
+                        <key code="11" output="&#xF62;" /> <!-- B2 6A BC -->
+                        
+                        <!-- q key --><!-- KA -->
+                        <key code="12" output="&#xF40;" /> <!-- 90 88 8D --> 
+                        
+                        <!-- w key --><!-- KHA -->
+                        <key code="13" output="&#xF41;" /> <!-- 91 89 reserved -->
+                        
+                        <!-- e key --><!-- GA -->
+                        <key code="14" output="&#xF42;" /> <!-- 92 reserved reserved --> 
+                        
+                        <!-- r key --><!-- NGA -->
+                        <key code="15" output="&#xF44;" /> <!-- 94 83 82 --> 
+                        
+                        <!-- y key --><!-- vowel mark U -->
+                        <key code="16" output="&#xF74;" /> <!-- 84 1B reserved -->
+                        
+                        <!-- t key --><!-- vowel mark I -->
+                        <key code="17" output="&#xF72;" /> <!-- 80 1A reserved -->
+                        
+                        <!-- 1 key -->   <!-- DIGIT ONE --> 
+                        <key code="18" output="&#xF21;" /> <!-- 04 0031 0021 -->
+                        
+                        <!-- 2 key --> <!-- DIGIT TWO --> 
+                        <key code="19" output="&#xF22;" /> <!-- 05 0032 0040 -->
+                        
+                        <!-- 3 key -->  <!-- DIGIT THREE --> 
+                        <key code="20" output="&#xF23;" /> <!-- 06 0033 0023 -->
+                        
+                        <!-- 4 key -->  <!-- DIGIT FOUR --> 
+                        <key code="21" output="&#xF24;" /> <!-- reserved 0034 0024 -->
+                        
+                        <!-- 6 key -->  <!-- DIGIT SIX --> 
+                        <key code="22" output="&#xF26;" /> <!-- 08 0036 01 -->
+                        
+                        <!-- 5 key --> <!-- DIGIT FIVE --> 
+                        <key code="23" output="&#xF25;" /> <!-- 0F0E 0035 0025 -->
+                        
+                        <!-- equal sign key --> <!-- SHAD --> 
+                        <key code="24" output="&#xF0D;" /> <!-- 11 003D 002B -->
+                        
+                        <!-- 9 key --> <!-- DIGIT NINE --> 
+                        <key code="25" output="&#xF29;" /> <!-- 3C 0039 0028 -->
+                        
+                        <!-- 7 key --> <!-- DIGIT SEVEN --> 
+                        <key code="26" output="&#xF27;" /> <!-- 3B 0037 0026 -->
+                        
+                        <!-- dash key -->  <!-- TSHEG --> 
+                        <key code="27" output="&#xF14;" /> <!-- 7F 002D 005F -->
+                        
+                        <!-- 8 key --> <!-- DIGIT EIGHT --> 
+                        <key code="28" output="&#xF28;" /> <!-- 34 0038 002A -->
+                        
+                        <!-- 0 key --> <!-- DIGIT ZERO --> 
+                        <key code="29" output="&#xF20;" /> <!-- 3D 0030 0029 -->
+                        
+                        <!-- ] key --> <!-- NYA -->
+                        <key code="30" output="&#xF49;" /> <!-- 99 005D 3E -->
+                        
+                        <!-- o key -->  <!-- CA -->
+                        <key code="31" output="&#xF45;" /> <!-- 95 1E 18 --> 
+                        
+                        <!-- u key -->  <!-- vowel mark E -->
+                        <key code="32" output="&#xF7A;" /> <!-- 7B 1C reserved --> 
+                        
+                        <!-- [ key -->   <!-- JA -->                 
+                        <key code="33" output="&#xF47;" /> <!-- 97 005B 3F -->
+                        
+                        <!-- i key --> <!-- vowel mark O -->
+                        <key code="34" output="&#xF7C;" /> <!-- 7D 1D 17 --> 
+                        
+                        <!-- p key --> <!-- CHA -->  
+                        <key code="35" output="&#xF46;" /> <!-- 96 1F 19 -->
+                        
+                        	<!-- ???? key -->
+                        	<key code="36" output="&#xD;" />
+                        
+                        <!-- l key --> <!-- TSA -->  
+                        <key code="37" output="&#xF59;" /> <!-- A9 39 86 --> 
+                        
+                        <!-- j key --> <!-- BA -->  
+                        <key code="38" output="&#xF56;" /> <!-- A6 37 35 -->
+                        
+                        <!-- single apostrophe --> <!-- DZA -->  
+                        <key code="39" output="&#xF5B;" /> <!-- AB 0027 0022 -->
+                        
+                        <!-- k key --> <!-- MA --> 
+                        <key code="40" output="&#xF58;" /> <!-- A8 7E 87 -->
+                        
+                        <!-- semi-colon key --><!-- TSHA --> 
+                        <key code="41" output="&#xF5A;" /> <!-- AA 003B 003A --> 
+                        
+                        <!-- backslash key --> <!-- TSA --> 
+                        <key code="42" output="&#xF5D;" /> <!-- AD 005C BA --> 
+                        
+                        <!-- comma key --> <!-- SA --> 
+                        <key code="43" output="&#xF66;" /> <!-- B6 002C 003C -->
+                        
+                        <!-- forward slash key --> <!-- A --> 
+                        <key code="44" output="&#xF68;" /> <!-- B8 002F 003F --> 
+                        
+                        <!-- n key -->  <!-- LA --> 
+                        <key code="45" output="&#xF63;" /> <!-- B3 8A 8B --> 
+                        
+                        <!-- m key --> <!--SHA --> 
+                        <key code="46" output="&#xF64;" /> <!-- B4 65 B5 --> 
+                        
+                        <!-- period key --> <!-- HA --> 
+                        <key code="47" output="&#xF67;" /> <!-- B7 002E 003E --> 
+                        
+                        	<!-- ??? key -->
+                        	<key code="48" output="&#x9;" />
+                        	
+                        	
+                        <!-- space key --> <!-- TSHEG -->
+                        <key code="49" output="&#xF0B;" /> <!-- 0020 0C 00A0 -->
+                        
+                        <!-- back apostrophe --> <!-- BSKUR YIG MGO -->
+                        <key code="50" output="&#xF09;" /> <!-- 0A D1 D0 -->
+                        
+                        	<key code="51" output="&#x8;" />
+                        	<key code="52" output="&#x3;" />
+                        	<key code="53" output="&#x1B;" />
+                        	<!-- gap, 54-64 -->
+                        	<key code="65" output="." />
+                        	<key code="66" output="&#x1D;" />
+                        	<key code="67" output="*" />
+                        	<!-- gap, 68 -->
+                        	<key code="69" output="+" />
+                        	<key code="70" output="&#x1C;" />
+                        	<key code="71" output="&#x1B;" />
+                        	<key code="72" output="&#x1F;" />
+                        	<!-- gap, 73-74 -->
+                        	<key code="75" output="/" />
+                        	<key code="76" output="&#x3;" />
+                        	<key code="77" output="&#x1E;" />
+                        	<key code="78" output="-" />
+                        	<!-- gap, 79-80 -->
+                        
+                        <!-- equal sign key -->
+                        <key code="81" output="=" />
+                        
+                        <!-- 0 numpad key -->
+                        <key code="82" output="0" />
+                        <key code="83" output="1" />
+                        <key code="84" output="2" />
+                        <key code="85" output="3" />
+                        <key code="86" output="4" />
+                        <key code="87" output="5" />
+                        <key code="88" output="6" />
+                        <key code="89" output="7" />
+                        <!-- gap, 90 -->
+                        <key code="91" output="8" />
+                        <key code="92" output="9" />
+                        <!-- gap, 93-94 -->
+                        <key code="95" output="," />
+                        <key code="96" output="&#x10;" />
+                        <key code="97" output="&#x10;" />
+                        <key code="98" output="&#x10;" />
+                        <key code="99" output="&#x10;" />
+                        <key code="100" output="&#x10;" />
+                        <key code="101" output="&#x10;" />
+                        <key code="102" output=" " />
+                        <key code="103" output="&#x10;" />
+                        <key code="104" output=" " />
+                        <key code="105" output="&#x10;" />
+                        <key code="106" output="&#x10;" />
+                        <key code="107" output="&#x10;" />
+                        <key code="108" output="&#x10;" />
+                        <key code="109" output="&#x10;" />
+                        <key code="110" output="&#x10;" />
+                        <key code="111" output="&#x10;" />
+                        <key code="112" output="&#x10;" />
+                        <key code="113" output="&#x10;" />
+                        <key code="114" output="&#x5;" />
+                        <key code="115" output="&#x1;" />
+                        <key code="116" output="&#xB;" />
+                        <key code="117" output="&#x7F;" />
+                        <key code="118" output="&#x10;" />
+                        <key code="119" output="&#x4;" />
+                        <key code="120" output="&#x10;" />
+                        <key code="121" output="&#xC;" />
+                        <key code="122" output="&#x10;" />
+                        <key code="123" output="&#x1C;" />
+                        <key code="124" output="&#x1D;" />
+                        <key code="125" output="&#x1F;" />
+                        <key code="126" output="&#x1E;" />
+                </keyMap>
+              
+                <keyMap index="1"><!-- Shift state -->
+                
+                	 <!-- a key --> <!-- SUBJOINED TA --> 
+                        <key code="0" output="&#xF9F;" /> <!-- 9F 4A 9A -->
+                        
+                        <!-- s key -->  <!-- SUBJOINED THA --> 
+                        <key code="1" output="&#xFA0;" /> <!-- A0 4B 9B -->
+                        
+                        <!-- d key --><!-- SUBJOINED DA --> 
+                        <key code="2" output="&#xFA1;" /> <!-- A1 4C 9C -->
+                        
+                        <!-- f key --><!-- SUBJOINED NA --> 
+                        <key code="3" output="&#xFA3;" /> <!-- A3 4E 9E -->
+                        
+                        <!-- h key --> <!-- SUBJOINED PHA--> 
+                        <key code="4" output="&#xFA5;" /> <!-- A5 reserved 00BB -->
+                        
+                        <!-- g key --> <!-- SUBJOINED PA --> 
+                        <key code="5" output="&#xFA4;" /> <!-- A4 &#x2039 00AB -->
+                        
+                        <!-- z key --> <!-- SUBJOINED ZHA --> 
+                        <key code="6" output="&#xFAE;" /> <!-- AE 13 36 -->
+                        
+                        <!-- x key --><!-- SUBJOINED ZA --> 
+                        <key code="7" output="&#xFAF;" /> <!-- AF BE BF -->
+                        
+                        <!-- c key --> <!-- VOWEL SIGN AA --> 
+                        <key code="8" output="&#xF71;" /> <!-- 71 03 B0 -->
+                        
+                        <!-- v key --> <!-- SUBJOINED YA-->
+                        <key code="9" output="&#xFB1;" /> <!-- B1 12 BB -->
+                        
+                        <key code="10" output="&#xB1;" />
+                        
+                        <!-- b key --> <!-- SUBJOINED RA -->
+                        <key code="11" output="&#xFB2;" /> <!-- B2 6A BC -->
+                        
+                        <!-- q key --> <!-- SUBJOINED KA -->
+                        <key code="12" output="&#xF90;" /> <!-- 90 88 reserved --> 
+                        
+                        <!-- w key --> <!-- SUBJOINED KHA -->
+                        <key code="13" output="&#xF91;" /> <!-- 91 89 reserved -->
+                        
+                        <!-- e key --><!-- SUBJOINED GA -->
+                        <key code="14" output="&#xF92;" /> <!-- 92 reserved reserved --> 
+                        
+                        <!-- r key --><!-- SUBJOINED NGA -->
+                        <key code="15" output="&#xF94;" /> <!-- 94 83 82 --> 
+                        
+                        <!-- y key --> <!-- HALANTA = srog med -->
+                        <key code="16" output="&#xF84;" /> <!-- 84 1B reserved -->
+                        
+                        <!-- t key --> <!-- REVERSED I -->
+                        <key code="17" output="&#xF80;" /> <!-- 80 1A reserved -->
+                        
+                        <!-- 1 key --> <!-- YIG MGO MDUN MA -->
+                        <key code="18" output="&#xF04;" /> <!-- 04 0031 0021 -->
+                        
+                        <!-- 2 key --> <!-- YIG MGO SGAB MA -->
+                        <key code="19" output="&#xF05;" /> <!-- 05 0032 0040 -->
+                        
+                        <!-- 3 key --> <!-- YIG MGO PHUR SHAD MA -->
+                        <key code="20" output="&#xF06;" /> <!-- 06 0033 0023 -->
+                        
+                        <!-- 4 key --> <!-- Reserved for Bhutanese currency symbol -->
+                        <key code="21" output="" /> <!-- reserved 0034 0024 -->
+                        
+                        <!-- 6 key --> <!-- SBRUL SHAD -->
+                        <key code="22" output="&#xF08;" /> <!-- 08 0036 01 -->
+                        
+                        <!-- 5 key --> <!-- NYIS SHAD -->
+                        <key code="23" output="&#xF0E;" /> <!-- 0F0E 0035 0025 -->
+                        
+                        <!-- equal sign key --> <!- RIN CHEN SPUNGS SHAD -> 
+                        <key code="24" output="&#xF11;" /> <!-- 11 003D 002B -->
+                        
+                        <!-- 9 key --> <!-- ANG KHANG GYON -->
+                        <key code="25" output="&#xF3C;" /> <!-- 3C 0039 0028 -->
+                        
+                        <!-- 7 key --> <!-- GUG RTAGS GYAS ->
+                        <key code="26" output="&#xF3B;" /> <!-- 3B 0037 0026 -->
+                        
+                        <!-- dash key --> <!-- RNAM BBCAD ->
+                        <key code="27" output="&#xF7F;" /> <!-- 7F 002D 005F -->
+                        
+                        <!-- 8 key --> <!-- BSDUS RTAGS ->
+                        <key code="28" output="&#xF34;" /> <!-- 34 0038 002A -->
+                        
+                        <!-- 0 key --> <!-- ANG KHANG GYAS ->
+                        <key code="29" output="&#xF3D;" /> <!-- 3D 0030 0029 -->
+                        
+                        <!-- ] key --> <!-- SUBJOINED NYA -->
+                        <key code="30" output="&#xF99;" /> <!-- 99 005D 3E -->
+                        
+                        <!-- o key -->  <!-- SUBJOINED CA -->
+                        <key code="31" output="&#xF95;" /> <!-- 95 1E 18 --> 
+                        
+                        <!-- u key -->  <!--  NYA -->
+                        <key code="32" output="&#xF7B;" /> <!-- 7B 1C reserved --> 
+                        
+                        <!-- [ key -->     <!--   SUBJOINED JA -->             
+                        <key code="33" output="&#xF97;" /> <!-- 97 005B 3F -->
+                        
+                        <!-- i key --><!--  VOWEL SIGN OO -->
+                        <key code="34" output="&#xF7D;" /> <!-- 7D 1D 17 --> 
+                        
+                        <!-- p key --> <!--  SUBJOINED CHA --> 
+                        <key code="35" output="&#xF96;" /> <!-- 96 1F 19 -->
+                        
+                        	<key code="36" output="&#xD;" />
+                        	
+                        <!-- l key --> <!-- SUBJOINED TSA --> 
+                        <key code="37" output="&#xFA9;" /> <!-- A9 39 86 --> 
+                        
+                        <!-- j key --> <!-- SUBJOINED BA --> 
+                        <key code="38" output="&#xFA6;" /> <!-- A6 37 35 -->
+                        
+                        <!-- single apostrophe --> <!-- SUBJOINED DZA --> 
+                        <key code="39" output="&#xFAB;" /> <!-- AB 0027 0022 -->
+                        
+                        <!-- k key --> <!-- SUBJOINED MA --> 
+                        <key code="40" output="&#xFA8;" /> <!-- A8 7E 87 -->
+                        
+                        <!-- semi-colon key --> <!-- SUBJOINED TSHA --> 
+                        <key code="41" output="&#xFAA;" /> <!-- AA 003B 003A --> 
+                        
+                        <!-- backslash key --> <!-- SUBJOINED WA (wazur) --> 
+                        <key code="42" output="&#xFAD;" /> <!-- AD 005C BA --> 
+                        
+                        <!-- comma key --> <!-- SUBJOINED SA --> 
+                        <key code="43" output="&#xFB6;" /> <!-- B6 002C 003C -->
+                        
+                        <!-- forward slash key --> <!-- SUBJOINED A --> 
+                        <key code="44" output="&#xFB8;" /> <!-- B8 002F 003F --> 
+                        
+                        <!-- n key --> <!-- SUBJOINED LA --> 
+                        <key code="45" output="&#xFB3;" /> <!-- B3 12 reserved --> 
+                        
+                        <!-- m key --> <!-- SUBJOINED SHA --> 
+                        <key code="46" output="&#xFB4;" /> <!-- B4 65 B5 --> 
+                        
+                        <!-- period key --> <!-- SUBJOINED HA --> 
+                        <key code="47" output="&#xFB7;" /> <!-- B7 002E 003E --> 
+                        
+                        	<key code="48" output="&#x9;" />
+                        	
+                        <!-- space key --> <!-- SPACE --> 
+                        <key code="49" output="&#x20;" /> <!-- 0020 0C 00A0 -->
+                        
+                        <!-- back apostrophe --> <!-- BKA- SHOG YIG MGO --> 
+                        <key code="50" output="&#xF0A;" /> <!-- 0F0A D1 D0 -->
+                        
+                        <key code="51" output="&#x8;" />
+                        <key code="52" output="&#x3;" />
+                        <key code="53" output="&#x1B;" />
+                        <!-- gap, 54-64 -->
+                        <key code="65" output="." />
+                        <key code="66" output="*" />
+                        <key code="67" output="*" />
+                        <!-- gap, 68 -->
+                        <key code="69" output="+" />
+                        <key code="70" output="+" />
+                        <key code="71" output="&#x1B;" />
+                        <key code="72" output="=" />
+                        <!-- gap, 73-74 -->
+                        <key code="75" output="/" />
+                        <key code="76" output="&#x3;" />
+                        <key code="77" output="/" />
+                        <key code="78" output="-" />
+                        <!-- gap, 79-80 -->
+                        <key code="81" output="=" />
+                        <key code="82" output="0" />
+                        <key code="83" output="1" />
+                        <key code="84" output="2" />
+                        <key code="85" output="3" />
+                        <key code="86" output="4" />
+                        <key code="87" output="5" />
+                        <key code="88" output="6" />
+                        <key code="89" output="7" />
+                        <!-- gap, 90 -->
+                        <key code="91" output="8" />
+                        <key code="92" output="9" />
+                        <!-- gap, 93-94 -->
+                        <key code="95" output="," />
+                        <key code="96" output="&#x10;" />
+                        <key code="97" output="&#x10;" />
+                        <key code="98" output="&#x10;" />
+                        <key code="99" output="&#x10;" />
+                        <key code="100" output="&#x10;" />
+                        <key code="101" output="&#x10;" />
+                        <key code="102" output=" " />
+                        <key code="103" output="&#x10;" />
+                        <key code="104" output=" " />
+                        <key code="105" output="&#x10;" />
+                        <key code="106" output="&#x10;" />
+                        <key code="107" output="&#x10;" />
+                        <key code="108" output="&#x10;" />
+                        <key code="109" output="&#x10;" />
+                        <key code="110" output="&#x10;" />
+                        <key code="111" output="&#x10;" />
+                        <key code="112" output="&#x10;" />
+                        <key code="113" output="&#x10;" />
+                        <key code="114" output="&#x5;" />
+                        <key code="115" output="&#x1;" />
+                        <key code="116" output="&#xB;" />
+                        <key code="117" output="&#x7F;" />
+                        <key code="118" output="&#x10;" />
+                        <key code="119" output="&#x4;" />
+                        <key code="120" output="&#x10;" />
+                        <key code="121" output="&#xC;" />
+                        <key code="122" output="&#x10;" />
+                        <key code="123" output="&#x1C;" />
+                        <key code="124" output="&#x1D;" />
+                        <key code="125" output="&#x1F;" />
+                        <key code="126" output="&#x1E;" />
+                </keyMap>
+                
+                 <keyMap index="2">
+                        <key code="0" output="A" />
+                        <key code="1" output="S" />
+                        <key code="2" output="D" />
+                        <key code="3" output="F" />
+                        <key code="4" output="H" />
+                        <key code="5" output="G" />
+                        <key code="6" output="Z" />
+                        <key code="7" output="X" />
+                        <key code="8" output="C" />
+                        <key code="9" output="V" />
+                        <key code="10" output="&#xA7;" />
+                        <key code="11" output="B" />
+                        <key code="12" output="Q" />
+                        <key code="13" output="W" />
+                        <key code="14" output="E" />
+                        <key code="15" output="R" />
+                        <key code="16" output="Y" />
+                        <key code="17" output="T" />
+                        <key code="18" output="1" />
+                        <key code="19" output="2" />
+                        <key code="20" output="3" />
+                        <key code="21" output="4" />
+                        <key code="22" output="6" />
+                        <key code="23" output="5" />
+                        <key code="24" output="=" />
+                        <key code="25" output="9" />
+                        <key code="26" output="7" />
+                        <key code="27" output="-" />
+                        <key code="28" output="8" />
+                        <key code="29" output="0" />
+                        <key code="30" output="]" />
+                        <key code="31" output="O" />
+                        <key code="32" output="U" />
+                        <key code="33" output="[" />
+                        <key code="34" output="I" />
+                        <key code="35" output="P" />
+                        <key code="36" output="&#xD;" />
+                        <key code="37" output="L" />
+                        <key code="38" output="J" />
+                        <key code="39" output="'" />
+                        <key code="40" output="K" />
+                        <key code="41" output=";" />
+                        <key code="42" output="\" />
+                        <key code="43" output="," />
+                        <key code="44" output="/" />
+                        <key code="45" output="N" />
+                        <key code="46" output="M" />
+                        <key code="47" output="." />
+                        <key code="48" output="&#x9;" />
+                        <key code="49" output=" " />
+                        <key code="50" output="`" />
+                        <key code="51" output="&#x8;" />
+                        <key code="52" output="&#x3;" />
+                        <key code="53" output="&#x1B;" />
+                        <key code="54" output="&#x0;" />
+                        <key code="55" output="&#x0;" />
+                        <key code="56" output="&#x0;" />
+                        <key code="57" output="&#x0;" />
+                        <key code="58" output="&#x0;" />
+                        <key code="59" output="&#x0;" />
+                        <key code="60" output="&#x0;" />
+                        <key code="61" output="&#x0;" />
+                        <key code="62" output="&#x0;" />
+                        <key code="63" output="&#x0;" />
+                        <key code="64" output="&#x0;" />
+                        <key code="65" output="." />
+                        <key code="66" output="&#x1D;" />
+                        <key code="67" output="*" />
+                        <key code="68" output="&#x0;" />
+                        <key code="69" output="+" />
+                        <key code="70" output="&#x1C;" />
+                        <key code="71" output="&#x1B;" />
+                        <key code="72" output="&#x1F;" />
+                        <key code="73" output="&#x0;" />
+                        <key code="74" output="&#x0;" />
+                        <key code="75" output="/" />
+                        <key code="76" output="&#x3;" />
+                        <key code="77" output="&#x1E;" />
+                        <key code="78" output="-" />
+                        <key code="79" output="&#x0;" />
+                        <key code="80" output="&#x0;" />
+                        <key code="81" output="=" />
+                        <key code="82" output="0" />
+                        <key code="83" output="1" />
+                        <key code="84" output="2" />
+                        <key code="85" output="3" />
+                        <key code="86" output="4" />
+                        <key code="87" output="5" />
+                        <key code="88" output="6" />
+                        <key code="89" output="7" />
+                        <key code="90" output="&#x0;" />
+                        <key code="91" output="8" />
+                        <key code="92" output="9" />
+                        <!-- gap, 93-94 -->
+                        <key code="95" output="," />
+                        <key code="96" output="&#x10;" />
+                        <key code="97" output="&#x10;" />
+                        <key code="98" output="&#x10;" />
+                        <key code="99" output="&#x10;" />
+                        <key code="100" output="&#x10;" />
+                        <key code="101" output="&#x10;" />
+                        <key code="102" output=" " />
+                        <key code="103" output="&#x10;" />
+                        <key code="104" output=" " />
+                        <key code="105" output="&#x10;" />
+                        <key code="106" output="&#x10;" />
+                        <key code="107" output="&#x10;" />
+                        <key code="108" output="&#x10;" />
+                        <key code="109" output="&#x10;" />
+                        <key code="110" output="&#x10;" />
+                        <key code="111" output="&#x10;" />
+                        <key code="112" output="&#x10;" />
+                        <key code="113" output="&#x10;" />
+                        <key code="114" output="&#x5;" />
+                        <key code="115" output="&#x1;" />
+                        <key code="116" output="&#xB;" />
+                        <key code="117" output="&#x7F;" />
+                        <key code="118" output="&#x10;" />
+                        <key code="119" output="&#x4;" />
+                        <key code="120" output="&#x10;" />
+                        <key code="121" output="&#xC;" />
+                        <key code="122" output="&#x10;" />
+                        <key code="123" output="&#x1C;" />
+                        <key code="124" output="&#x1D;" />
+                        <key code="125" output="&#x1F;" />
+                        <key code="126" output="&#x1E;" />
+                </keyMap>
+                <keyMap index="3">   <!-- Alt-Gr state -->
+                      
+                        <!-- a key --> <!--   SUBJOINED TTA -->
+                        <key code="0" output="&#xF4A;" /> <!-- 9F 4A 9A -->
+                        
+                        <!-- s key --> <!-- SUBJOINED TTHA -->
+                        <key code="1" output="&#xF4B;" /> <!-- A0 4B 9B -->
+                        
+                        <!-- d key -->  <!-- SUBJOINED DDA -->
+                        <key code="2" output="&#xF9C;" /> <!-- A1 4C 9C -->
+                        
+                        <!-- f key --> <!-- SUBJOINED NNA -->
+                        <key code="3" output="&#xF4E;" /> <!-- A3 4E 9E -->
+                        
+                        <!-- h key -->
+                        <key code="4" output="&#x203A;" /> <!-- A5 &#x203A 00BB -->
+                        
+                        <!-- g key -->
+                        <key code="5" output="&#x2039;" /> <!-- A4 &#x2039 00AB -->
+                        
+                        <!-- z key -->      <!-- -DZUD RTAGS ME LONG CAN --> 
+                        <key code="6" output="&#xF13;" /> <!-- AE 13 36 -->
+                        
+                        <!-- x key -->     <!-- KU RU KHA ->
+                        <key code="7" output="&#xFBE;" /> <!-- AF BE BF -->
+                        
+                        <!-- c key -->  <!--  GTER YIG MGO -UM GTER TSHEG MA --> 
+                        <key code="8" output="&#xF03;" /> <!-- 71 03 B0 -->
+                        
+                        <!-- v key --> <!--  TSHEG SHAD --> 
+                        <key code="9" output="&#xF0F;" /> <!-- B1 0F BB -->
+                        
+                        	<!-- ????? key -->
+                        	<key code="10" output="&#xA7;" />
+                        
+                        <!-- b key -->   <!-- FIXED-FORM RA --> 
+                        <key code="11" output="&#xF6A;" /> <!-- B2 6A BC -->
+                        
+                        <!-- q key --> <!-- LCE TSA CAN  (Tibetan jihvamuliya) --> 
+                        <key code="12" output="&#xF88;" /> <!-- 90 88 reserved --> 
+                        
+                        <!-- w key -->  <!--  MCHU CAN (Tibetan upadhmaniya) --> 
+                        <key code="13" output="&#xF89;" /> <!-- 91 89 8D-->
+                        
+                        <!-- e key --> <!--  INVERTED MCHU CAN --> 
+                        <key code="14" output=""&#xF8C;" /> <!-- 92 8C 8E --> 
+                        
+                        <!-- r key --> <!--  SNA LDAN (candrabindu) --> 
+                        <key code="15" output="&#xF83;" /> <!-- 94 83 82 --> 
+                        
+                        <!-- y key --> <!--  RDEL DKAR GNYIS --> 
+                        <key code="16" output="&#xF1B;" /> <!-- 84 1B reserved -->
+                        
+                        <!-- t key --> <!--  RDEL DKAR GCIG --> 
+                        <key code="17" output="&#xF1A;" /> <!-- 80 1A reserved -->
+                        
+                        <!-- 1 key --> <!--  Digit One --> 
+                        <key code="18" output="&#x31;" /> <!-- 04 0031 0021 -->
+                        
+                        <!-- 2 key --> <!--  Digit Two --> 
+                        <key code="19" output="&#x32;" /> <!-- 05 0032 0040 -->
+                        
+                        <!-- 3 key --> <!--  Digit Three --> 
+                        <key code="20" output="&#x33;" /> <!-- 06 0033 0023 -->
+                        
+                        <!-- 4 key --> <!--  Digit Four --> 
+                        <key code="21" output="&#x34;" /> <!-- reserved 0034 0024 -->
+                        
+                        <!-- 6 key -->  <!--  Digit Six --> 
+                        <key code="22" output="&#x36;" /> <!-- 08 0036 01 -->
+                        
+                        <!-- 5 key --> <!--  Digit Five --> 
+                        <key code="23" output="&#x35;" /> <!-- reserved 0035 0025 -->
+                        
+                        <!-- equal sign key --> <!-- Equals Sign --> 
+                        <key code="24" output="&#x3D;" /> <!-- 11 003D 002B -->
+                        
+                        <!-- 9 key -->  < !--  Digit Nine --> 
+                        <key code="25" output="&#x39;" /> <!-- 3C 0039 0028 -->
+                        
+                        <!-- 7 key --> <!--  Digit Seven --> 
+                        <key code="26" output="&#x37;" /> <!-- 3B 0037 0026 -->
+                        
+                        <!-- dash key --> <!--  Hyphen-Minus -->
+                        <key code="27" output="&#x2D;" /> <!-- 7F 002D D2 -->
+                        
+                        <!-- 8 key --> <!--  Digit Eight --> 
+                        <key code="28" output="&#x38;" /> <!-- 34 0038 002A -->
+                        
+                        <!-- 0 key --> <!--  Digit Zero --> 
+                        <key code="29" output="&#x30;" /> <!-- 3D 0030 reserved -->
+                        
+                        <!-- ] key --> <!-- Right Parenthesis  -->  
+                        <key code="30" output="&#x29;" /> <!-- 99 0029 3E -->
+                        
+                        <!-- o key --> <!-- RDEL NAG GNYIS -->
+                        <key code="31" output="&#xF1E;" /> <!-- 95 1E 18 --> 
+                        
+                        <!-- u key --> <!-- RDEL DKAR GSUM -->
+                        <key code="32" output="&#xF1C;" /> <!-- 7B 1C reserved --> 
+                        
+                        <!-- [ key -->     <!-- Left Parenthesis -->               
+                        <key code="33" output="&#x28;" /> <!-- 97 0028 3F -->
+                        
+                        <!-- i key -->  <!-- RDEL NAG GCIG -->    
+                        <key code="34" output="&#xF1D;" /> <!-- 7D 1D 17 --> 
+                        
+                        <!-- p key --> <!-- RDEL DKAR RDEL NAG --> 
+                        <key code="35" output="&#xF1F;" /> <!-- 96 1F 19 -->                        
+                        
+                 
+                        	<key code="36" output="&#xD;" />
+                        
+                        <!-- l key -->  <!-- TSA -PHRU -->
+                        <key code="37" output="&#xF39;" /> <!-- A9 39 86 --> 
+                        
+                        <!-- j key -->  <!-- NGAS BZUNG SGOR RTAGS   -->
+                        <key code="38" output="&#xF37;" /> <!-- A6 37 35 -->
+                        
+                        <!-- single apostrophe --> <!-- Apostrophe -->
+                        <key code="39" output="&#x27;" /> <!-- AB 0027 0022 -->
+                        
+                        <!-- k key --> <!-- RJES SU NGA RO -->
+                        <key code="40" output="&#xF7E;" /> <!-- A8 7E 87 -->
+                        
+                        <!-- semi-colon key --> <!-- semi-colon -->
+                        <key code="41" output="&#x3B;" /> <!-- AA 003B 003A --> 
+                        
+                        <!-- backslash key --> <!-- backslash -->
+                        <key code="42" output="&#x5C;" /> <!-- AD 005C BA --> 
+                        
+                        <!-- comma key -->  <!-- comma --> 
+                        <key code="43" output="&#x2C;" /> <!-- B6 002C D9 -->
+                        
+                        <!-- forward slash key -->  <!-- forward slash --> 
+                        <key code="44" output="&#x2F;" /> <!-- B8 002F 003F --> 
+                        
+                        <!-- n key --> <!-- RGYA GRAM SHAD -->
+                        <key code="45" output="&#xF12;" /> <!-- B3 12 reserved --> 
+                        
+                        <!-- m key --> <!-- SSA (ཥ) -->
+                        <key code="46" output="&#xF65;" /> <!-- B4 65 B5 --> 
+                        
+                        <!-- period key --> <!-- period . full-stop  -->
+                        <key code="47" output="&#x2E;" /> <!-- B7 002E 0FDA --> 
+
+                        	<key code="48" output="&#x9;" />
+                        
+                        <!-- space key -->  <!-- TSHEG BSTAR *(nobreak tsheg) -->
+                        <key code="49" output="&#xF0C;" /> <!-- 0020 0C 00A0 -->
+                        
+                        <!-- back apostrophe --> <!-- MNYAM YIG GI MGO RGYAN  -->
+                        <key code="50" output="&#xFD1;" /> <!-- 0A D1 D0 -->
+                        
+                        <key code="51" output="&#x8;" />
+                        <key code="52" output="&#x3;" />
+                        <key code="53" output="&#x1B;" />
+                        <!-- gap, 54-65 -->
+                        <key code="66" output="&#x1D;" />
+                        <!-- gap, 67-69 -->
+                        <key code="70" output="&#x1C;" />
+                        <key code="71" output="&#x1B;" />
+                        <key code="72" output="&#x1F;" />
+                        <!-- gap, 73-75 -->
+                        <key code="76" output="&#x3;" />
+                        <key code="77" output="&#x1E;" />
+                        <!-- gap, 78-95 -->
+                        <key code="96" output="&#x10;" />
+                        <key code="97" output="&#x10;" />
+                        <key code="98" output="&#x10;" />
+                        <key code="99" output="&#x10;" />
+                        <key code="100" output="&#x10;" />
+                        <key code="101" output="&#x10;" />
+                        <key code="102" output=" " />
+                        <key code="103" output="&#x10;" />
+                        <key code="104" output=" " />
+                        <key code="105" output="&#x10;" />
+                        <key code="106" output="&#x10;" />
+                        <key code="107" output="&#x10;" />
+                        <key code="108" output="&#x10;" />
+                        <key code="109" output="&#x10;" />
+                        <key code="110" output="&#x10;" />
+                        <key code="111" output="&#x10;" />
+                        <key code="112" output="&#x10;" />
+                        <key code="113" output="&#x10;" />
+                        <key code="114" output="&#x5;" />
+                        <key code="115" output="&#x1;" />
+                        <key code="116" output="&#xB;" />
+                        <key code="117" output="&#x7F;" />
+                        <key code="118" output="&#x10;" />
+                        <key code="119" output="&#x4;" />
+                        <key code="120" output="&#x10;" />
+                        <key code="121" output="&#xC;" />
+                        <key code="122" output="&#x10;" />
+                        <key code="123" output="&#x1C;" />
+                        <key code="124" output="&#x1D;" />
+                        <key code="125" output="&#x1F;" />
+                        <key code="126" output="&#x1E;" />
+                </keyMap>
+               
+                 <keyMap index="4">   <!-- Shift Alt-Gr state -->
+                                                
+                        <!-- a key --> <!-- SUBJOINED TTA-->
+                        <key code="0" output="&#xF9A;" /> <!-- 9F 4A 9A -->
+                        
+                       <!-- s key --> <!-- SUBJOINED TTHA-->
+                        <key code="1" output="&#xF9B;" /> <!-- A0 4B 9B -->
+                        
+                        <!-- d key -->  <!-- SUBJOINED DDA-->
+                        <key code="2" output="&#xF9C;" /> <!-- A1 4C 9C -->
+                        
+                        <!-- f key --><!-- SUBJOINED NNA-->
+                        <key code="3" output="&#xF9E;" /> <!-- A3 4E 9E -->
+                        
+                        <!-- h key --> <!-- right guillemet-->
+                        <key code="4" output="&#xBB;" /> <!-- A5 203A 00BB -->
+                        
+                        <!-- g key --> <!-- left guillemet-->
+                        <key code="5" output="&#xAB;" /> <!-- A4 2039 00AB -->
+                        
+                        <!-- z key --> <!-- -DZUD RTAGS BZHI MIG CAN -->
+                        <key code="6" output="&#xF36;" /> <!-- AE 13 F36 -->
+                        
+                        <!-- x key -->  <!--  KU RU KHA BZHI MIG CAN -->
+                        <key code="7" output="&#xFBF;" /> <!-- AF BE BF -->
+                        
+                        <!-- c key -->  <!--  SUBJOINED LETTER (full) -A -->
+                        <key code="8" output="&#xFB0;" /> <!-- 71 03 B0 -->
+                        
+                        <!-- v key -->  <!-- SUBJOINED FIXED-FORM (full) YA -->
+                        <key code="9" output="&#xFBB;" /> <!-- B1 12 BB -->
+                        
+                        <!-- ????? key -->
+                        <key code="10" output="&#xA7;" />
+                        
+                        <!-- b key -->  <!-- SUBJOINED FIXED-FORM (full) RA -->
+                        <key code="11" output="&#xFBC;" /> <!-- B2 6A BC -->
+                        
+                        <!-- q key -->  <!-- SUBJOINED LCE TSA CAN (jihvamuliya) --> 
+                        <key code="12" output="&#xF8D" /> <!-- 90 88 8D  --> 
+                        
+                        <!-- w key --> <!-- SUBJOINED MCHU CAN --> 
+                        <key code="13" output="&#xF8E" /> <!-- 91 89 8E -->
+                        
+                        <!-- e key --> <!-- SUBJOINED INVERTED MCHU CAN --> 
+                        <key code="14" output="" /> <!-- 92 8C 8F --> 
+                        
+                        <!-- r key --> <!-- NYI ZLA NAA DA (chandrabindu) --> 
+                        <key code="15" output="&#xF82;" /> <!-- 94 83 82 --> 
+                        
+                        <!-- y key --> <!-- reserved -->
+                        <key code="16" output="" /> <!-- 84 1B reserved -->
+                        
+                        <!-- t key --> <!-- GRU MED RGYINGS -->
+                        <key code="17" output="" /> <!-- 80 1A 8B -->
+                        
+                        <!-- 1 key -->  <!-- BRDA RNYING YIG MGO MDUN MA -->
+                        <key code="18" output="&#xFD3;" /> <!-- 04 0031 D3 -->
+                        
+                        <!-- 2 key -->   <!-- BRDA RNYING YIG MGO SGAB MA -->
+                        <key code="19" output="&#xFD4;" /> <!-- 05 0032 D4 -->
+                        
+                        <!-- 3 key -->  <!-- GUG RTAGS GYON -->
+                        <key code="20" output="&#xF3A;" /> <!-- 06 0033 3A -->
+                        
+                        <!-- 4 key -->  <!-- GUG RTAGS GYAS -->
+                        <key code="21" output="&#xF3B;" /> <!-- reserved 0034 3B -->
+                        
+                        <!-- 6 key --> <!-- TRUNCATED A -->
+                        <key code="22" output="&#xF01;" /> <!-- 08 0036 01 -->
+                        
+                        <!-- 5 key --> <!-- PALUTA (avagraha)-->
+                        <key code="23" output="&#F85;" /> <!-- 0F0E  0035 85 -->
+                        
+                        <!-- equal sign key -->  <!-- PLUS SIGN -->
+                        <key code="24" output="&#x2B;" /> <!-- 11 003D 002B -->
+                        
+                        <!-- 9 key --> <!-- reserved -->
+                        <key code="25" output="" /> <!-- 3C 0039 reserved -->
+                        
+                        <!-- 7 key -->  <!-- GRU MED RGYINGS -->
+                        <key code="26" output="&#xF8A;" /> <!-- 3B 0037 8A -->
+                        
+                        <!-- dash key --> <!-- NYIS TSHEG -->
+                        <key code="27" output="&#xFD2;" /> <!-- 7F 002D D2 -->
+                        
+                        <!-- 8 key -->  <!--  Asterisk.  -->
+                        <key code="28" output="&#x2A;" /> <!-- 34 0038 002A -->
+                        
+                        <!-- 0 key  -->  <!-- reserved -->
+                        <key code="29" output="" /> <!-- 3D 0030 reserved -->
+                        
+                        <!-- ] key --> <!-- YAR TSHES -->
+                        <key code="30" output="&#xF3E;" /> <!-- 99 0029 3E -->
+                        
+                        <!-- o key -->  <!-- -KHYUD PA -->
+                        <key code="31" output="&#xF18;" /> <!-- 95 1E 18 --> 
+                        
+                        <!-- u key -->  <!-- reserved -->
+                        <key code="32" output="" /> <!-- 7B 1C reserved --> 
+                        
+                        <!-- [ key -->      <!--  MAR TSHES  -->           
+                        <key code="33" output="&#xF3F;" /> <!-- 97 005B 3F -->
+                        
+                        <!-- i key -->  <!-- SGRA GCAN -CHAR RTAGS --> 
+                        <key code="34" output="&#xF17;" /> <!-- 7D 1D 17 --> 
+                        
+                        <!-- p key -->  <!-- SDONG TSHUGS --> 
+                        <key code="35" output="&#xF19;" /> <!-- 96 1F 19 -->                        
+                        
+                        	<key code="36" output="&#xD;" />
+                        	
+                        <!-- l key --> <!-- LCI RTAGS -->
+                        <key code="37" output="&#xF86;" /> <!-- A9 39 86--> 
+                        
+                        <!-- j key -->   <!-- NGAS BZUNG NYI ZLA --> 
+                        <key code="38" output="&#xF35;" /> <!-- A6 37 35 -->
+                        
+                        <!-- single apostrophe -->   <!-- Quotation Mark -->
+                        <key code="39" output="&#x22;" /> <!-- AB 0027 0022 -->
+                        
+                        <!-- k key --> 
+                        <key code="40" output="&#xF87;"  /> <!-- A8 7E 87 -->
+                        
+                        <!-- semi-colon key -->
+                        <key code="41" output="&#x3A;" /> <!-- AA 003B 003A --> 
+                        
+                        <!-- backslash key -->
+                        <key code="42" output="&#xFBA;" /> <!-- AD 005C BA --> 
+                        
+                        <!-- comma key -->  <!-- LEADING MCHAN RTAGS -->
+                        <key code="43" output="&#xFD9;" /> <!-- B6 002C D9 -->
+                        
+                        <!-- forward slash key --> <!-- Question mark -->
+                        <key code="44" output="&#x3F;" /> <!-- B8 002F 003F --> 
+                        
+                        <!-- n key -->  <!-- reserved (for SUBJOINED FIXED-FORM (full) LA) -->  
+                        <key code="45" output="" /> <!-- B3 8A reserved --> 
+                        
+                        <!-- m key --> <!-- SUBJOINED LETTER SSA -->  
+                        <key code="46" output="&#xFB5;" /> <!-- B4 65 B5 --> 
+                        
+                        <!-- period key -->  <!-- TRAILING MCHAN RTAGS  --> 
+                        <key code="47" output="&#xFDA;" /> <!-- B7 002E DA --> 
+
+                        	<key code="48" output="&#x9;" />
+                        	
+                        <!-- space key -->   <!-- NO BREAK SPACE -->
+                        <key code="49" output="&#xA0;" /> <!-- 0020 0C 00A0 -->
+                        
+                        <!-- back apostrophe --> <!-- BSKA- SHOG GI MGO RGYAN  -->
+                        <key code="50" output="&#xFD0;" /> <!-- 0A D1 D0 -->
+                        
+                        <key code="51" output="&#x8;" />
+                        <key code="52" output="&#x3;" />
+                        <key code="53" output="&#x1B;" />
+                        <!-- gap, 54-65 -->
+                        <key code="66" output="*" />
+                        <!-- gap, 67-69 -->
+                        <key code="70" output="+" />
+                        <key code="71" output="&#x1B;" />
+                        <key code="72" output="=" />
+                        <!-- gap, 73-75 -->
+                        <key code="76" output="&#x3;" />
+                        <key code="77" output="/" />
+                        <!-- gap, 78-95 -->
+                        <key code="96" output="&#x10;" />
+                        <key code="97" output="&#x10;" />
+                        <key code="98" output="&#x10;" />
+                        <key code="99" output="&#x10;" />
+                        <key code="100" output="&#x10;" />
+                        <key code="101" output="&#x10;" />
+                        <key code="102" output=" " />
+                        <key code="103" output="&#x10;" />
+                        <key code="104" output=" " />
+                        <key code="105" output="&#x10;" />
+                        <key code="106" output="&#x10;" />
+                        <key code="107" output="&#x10;" />
+                        <key code="108" output="&#x10;" />
+                        <key code="109" output="&#x10;" />
+                        <key code="110" output="&#x10;" />
+                        <key code="111" output="&#x10;" />
+                        <key code="112" output="&#x10;" />
+                        <key code="113" output="&#x10;" />
+                        <key code="114" output="&#x5;" />
+                        <key code="115" output="&#x1;" />
+                        <key code="116" output="&#xB;" />
+                        <key code="117" output="&#x7F;" />
+                        <key code="118" output="&#x10;" />
+                        <key code="119" output="&#x4;" />
+                        <key code="120" output="&#x10;" />
+                        <key code="121" output="&#xC;" />
+                        <key code="122" output="&#x10;" />
+                        <key code="123" output="&#x1C;" />
+                        <key code="124" output="&#x1D;" />
+                        <key code="125" output="&#x1F;" />
+                        <key code="126" output="&#x1E;" />
+                </keyMap>
+                <keyMap index="5">
+                        <!-- gap, 0-35 -->
+                        <key code="36" output="&#xD;" />
+                        <!-- gap, 37-47 -->
+                        <key code="48" output="&#x9;" />
+                        <key code="49" output="&#xA0;" />
+                        <!-- gap, 50 -->
+                        <key code="51" output="&#x8;" />
+                        <key code="52" output="&#x3;" />
+                        <key code="53" output="&#x1B;" />
+                        <!-- gap, 54-65 -->
+                        <key code="66" output="&#x1D;" />
+                        <!-- gap, 67-69 -->
+                        <key code="70" output="&#x1C;" />
+                        <key code="71" output="&#x1B;" />
+                        <key code="72" output="&#x1F;" />
+                        <!-- gap, 73-75 -->
+                        <key code="76" output="&#x3;" />
+                        <key code="77" output="&#x1E;" />
+                        <!-- gap, 78-95 -->
+                        <key code="96" output="&#x10;" />
+                        <key code="97" output="&#x10;" />
+                        <key code="98" output="&#x10;" />
+                        <key code="99" output="&#x10;" />
+                        <key code="100" output="&#x10;" />
+                        <key code="101" output="&#x10;" />
+                        <key code="102" output=" " />
+                        <key code="103" output="&#x10;" />
+                        <key code="104" output=" " />
+                        <key code="105" output="&#x10;" />
+                        <key code="106" output="&#x10;" />
+                        <key code="107" output="&#x10;" />
+                        <key code="108" output="&#x10;" />
+                        <key code="109" output="&#x10;" />
+                        <key code="110" output="&#x10;" />
+                        <key code="111" output="&#x10;" />
+                        <key code="112" output="&#x10;" />
+                        <key code="113" output="&#x10;" />
+                        <key code="114" output="&#x5;" />
+                        <key code="115" output="&#x1;" />
+                        <key code="116" output="&#xB;" />
+                        <key code="117" output="&#x7F;" />
+                        <key code="118" output="&#x10;" />
+                        <key code="119" output="&#x4;" />
+                        <key code="120" output="&#x10;" />
+                        <key code="121" output="&#xC;" />
+                        <key code="122" output="&#x10;" />
+                        <key code="123" output="&#x1C;" />
+                        <key code="124" output="&#x1D;" />
+                        <key code="125" output="&#x1F;" />
+                        <key code="126" output="&#x1E;" />
+                </keyMap>
+                <keyMap index="6"> 
+                        <key code="0" output="a" />
+                        <key code="1" output="s" />
+                        <key code="2" output="d" />
+                        <key code="3" output="f" />
+                        <key code="4" output="h" />
+                        <key code="5" output="g" />
+                        <key code="6" output="z" />
+                        <key code="7" output="x" />
+                        <key code="8" output="c" />
+                        <key code="9" output="v" />
+                        <key code="10" output="&#xA7;" />
+                        <key code="11" output="b" />
+                        <key code="12" output="q" />
+                        <key code="13" output="w" />
+                        <key code="14" output="e" />
+                        <key code="15" output="r" />
+                        <key code="16" output="y" />
+                        <key code="17" output="t" />
+                        <key code="18" output="1" />
+                        <key code="19" output="2" />
+                        <key code="20" output="3" />
+                        <key code="21" output="4" />
+                        <key code="22" output="6" />
+                        <key code="23" output="5" />
+                        <key code="24" output="=" />
+                        <key code="25" output="9" />
+                        <key code="26" output="7" />
+                        <key code="27" output="-" />
+                        <key code="28" output="8" />
+                        <key code="29" output="0" />
+                        <key code="30" output="]" />
+                        <key code="31" output="o" />
+                        <key code="32" output="u" />
+                        <key code="33" output="[" />
+                        <key code="34" output="i" />
+                        <key code="35" output="p" />
+                        <key code="36" output="&#xD;" />
+                        <key code="37" output="l" />
+                        <key code="38" output="j" />
+                        <key code="39" output="'" />
+                        <key code="40" output="k" />
+                        <key code="41" output=";" />
+                        <key code="42" output="\" />
+                        <key code="43" output="," />
+                        <key code="44" output="/" />
+                        <key code="45" output="n" />
+                        <key code="46" output="m" />
+                        <key code="47" output="." />
+                        <key code="48" output="&#x9;" />
+                        <key code="49" output=" " />
+                        <key code="50" output="`" />
+                        <key code="51" output="&#x8;" />
+                        <key code="52" output="&#x3;" />
+                        <key code="53" output="&#x1B;" />
+                        <!-- gap, 54-64 -->
+                        <key code="65" output="." />
+                        <key code="66" output="&#x1D;" />
+                        <key code="67" output="*" />
+                        <!-- gap, 68 -->
+                        <key code="69" output="+" />
+                        <key code="70" output="&#x1C;" />
+                        <key code="71" output="&#x1B;" />
+                        <key code="72" output="&#x1F;" />
+                        <!-- gap, 73-74 -->
+                        <key code="75" output="/" />
+                        <key code="76" output="&#x3;" />
+                        <key code="77" output="&#x1E;" />
+                        <key code="78" output="-" />
+                        <!-- gap, 79-80 -->
+                        <key code="81" output="=" />
+                        <key code="82" output="0" />
+                        <key code="83" output="1" />
+                        <key code="84" output="2" />
+                        <key code="85" output="3" />
+                        <key code="86" output="4" />
+                        <key code="87" output="5" />
+                        <key code="88" output="6" />
+                        <key code="89" output="7" />
+                        <!-- gap, 90 -->
+                        <key code="91" output="8" />
+                        <key code="92" output="9" />
+                        <!-- gap, 93-95 -->
+                        <key code="96" output="&#x10;" />
+                        <key code="97" output="&#x10;" />
+                        <key code="98" output="&#x10;" />
+                        <key code="99" output="&#x10;" />
+                        <key code="100" output="&#x10;" />
+                        <key code="101" output="&#x10;" />
+                        <key code="102" output=" " />
+                        <key code="103" output="&#x10;" />
+                        <key code="104" output=" " />
+                        <key code="105" output="&#x10;" />
+                        <key code="106" output="&#x10;" />
+                        <key code="107" output="&#x10;" />
+                        <key code="108" output="&#x10;" />
+                        <key code="109" output="&#x10;" />
+                        <key code="110" output="&#x10;" />
+                        <key code="111" output="&#x10;" />
+                        <key code="112" output="&#x10;" />
+                        <key code="113" output="&#x10;" />
+                        <key code="114" output="&#x5;" />
+                        <key code="115" output="&#x1;" />
+                        <key code="116" output="&#xB;" />
+                        <key code="117" output="&#x7F;" />
+                        <key code="118" output="&#x10;" />
+                        <key code="119" output="&#x4;" />
+                        <key code="120" output="&#x10;" />
+                        <key code="121" output="&#xC;" />
+                        <key code="122" output="&#x10;" />
+                        <key code="123" output="&#x1C;" />
+                        <key code="124" output="&#x1D;" />
+                        <key code="125" output="&#x1F;" />
+                        <key code="126" output="&#x1E;" />
+                </keyMap>
+                <keyMap index="7">
+                        <key code="0" output="&#x1;" />
+                        <key code="1" output="&#x13;" />
+                        <key code="2" output="&#x4;" />
+                        <key code="3" output="&#x6;" />
+                        <key code="4" output="&#x8;" />
+                        <key code="5" output="&#x7;" />
+                        <key code="6" output="&#x1A;" />
+                        <key code="7" output="&#x18;" />
+                        <key code="8" output="&#x3;" />
+                        <key code="9" output="&#x16;" />
+                        <!-- gap, 10 -->
+                        <key code="11" output="&#x2;" />
+                        <key code="12" output="&#x11;" />
+                        <key code="13" output="&#x17;" />
+                        <key code="14" output="&#x5;" />
+                        <key code="15" output="&#x12;" />
+                        <key code="16" output="&#x19;" />
+                        <key code="17" output="&#x14;" />
+                        <!-- gap, 18 -->
+                        <key code="19" output="&#x0;" />
+                        <!-- gap, 20-21 -->
+                        <key code="22" output="&#x1E;" />
+                        <!-- gap, 23-26 -->
+                        <key code="27" output="&#x1F;" />
+                        <!-- gap, 28-29 -->
+                        <key code="30" output="&#x1D;" />
+                        <key code="31" output="&#xF;" />
+                        <key code="32" output="&#x15;" />
+                        <key code="33" output="&#x1B;" />
+                        <key code="34" output="&#x9;" />
+                        <key code="35" output="&#x10;" />
+                        <key code="36" output="&#xD;" />
+                        <key code="37" output="&#xC;" />
+                        <key code="38" output="&#xA;" />
+                        <!-- gap, 39 -->
+                        <key code="40" output="&#xB;" />
+                        <!-- gap, 41 -->
+                        <key code="42" output="&#x1C;" />
+                        <!-- gap, 43-44 -->
+                        <key code="45" output="&#xE;" />
+                        <key code="46" output="&#xD;" />
+                        <!-- gap, 47 -->
+                        <key code="48" output="&#x9;" />
+                        <key code="49" output="&#x0;" />
+                        <!-- gap, 50 -->
+                        <key code="51" output="&#x8;" />
+                        <key code="52" output="&#x3;" />
+                        <key code="53" output="&#x1B;" />
+                        <!-- gap, 54-65 -->
+                        <key code="66" output="&#x1D;" />
+                        <!-- gap, 67-69 -->
+                        <key code="70" output="&#x1C;" />
+                        <key code="71" output="&#x1B;" />
+                        <key code="72" output="&#x1F;" />
+                        <!-- gap, 73-75 -->
+                        <key code="76" output="&#x3;" />
+                        <key code="77" output="&#x1E;" />
+                        <!-- gap, 78-95 -->
+                        <key code="96" output="&#x10;" />
+                        <key code="97" output="&#x10;" />
+                        <key code="98" output="&#x10;" />
+                        <key code="99" output="&#x10;" />
+                        <key code="100" output="&#x10;" />
+                        <key code="101" output="&#x10;" />
+                        <key code="102" output=" " />
+                        <key code="103" output="&#x10;" />
+                        <key code="104" output=" " />
+                        <key code="105" output="&#x10;" />
+                        <key code="106" output="&#x10;" />
+                        <key code="107" output="&#x10;" />
+                        <key code="108" output="&#x10;" />
+                        <key code="109" output="&#x10;" />
+                        <key code="110" output="&#x10;" />
+                        <key code="111" output="&#x10;" />
+                        <key code="112" output="&#x10;" />
+                        <key code="113" output="&#x10;" />
+                        <key code="114" output="&#x5;" />
+                        <key code="115" output="&#x1;" />
+                        <key code="116" output="&#xB;" />
+                        <key code="117" output="&#x7F;" />
+                        <key code="118" output="&#x10;" />
+                        <key code="119" output="&#x4;" />
+                        <key code="120" output="&#x10;" />
+                        <key code="121" output="&#xC;" />
+                        <key code="122" output="&#x10;" />
+                        <key code="123" output="&#x1C;" />
+                        <key code="124" output="&#x1D;" />
+                        <key code="125" output="&#x1F;" />
+                        <key code="126" output="&#x1E;" />
+                </keyMap>
+        </keyMapSet>
+</keyboard>
